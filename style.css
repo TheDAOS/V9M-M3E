@@ -57,3 +57,113 @@ body {
     padding: 0;
 }
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+    border-right:0px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #aaa;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button i {
+    transition: transform 0.3s;
+}
+
+
+/* Dark Mode */
+body.dark-mode {
+    font-family: Arial;
+    padding: 20px;
+    color: #E4E6EB;
+    background: #18191A;
+}
+
+body.dark-mode .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: #242526;
+}
+
+body.dark-mode .fakeimg {
+    background-color: #3A3B3C;
+    width: 100%;
+    padding: 20px;
+}
+
+body.dark-mode .card {
+    background-color: #242526;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+body.dark-mode .footer {
+    padding: 20px;
+    text-align: center;
+    background: #242526;
+    margin-top: 20px;
+}
+
+body.dark-mode ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+    background-color: #242526;
+}
+
+body.dark-mode li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body.dark-mode li a:hover:not(.active) {
+    background-color: #3A3B3C;
+}
+
+body.dark-mode button {
+    background-color: #242526;
+    color: white;
+}
+
+body.dark-mode button i {
+    transform: rotate(180deg);
+}
