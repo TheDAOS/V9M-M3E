@@ -2,7 +2,7 @@
 
 This a simple Blog Project
 
-Click the [Link]([https://www.example.com](https://thedaos.github.io/V9M-M3E/) to open the webpage  
+Click the [Link](https://thedaos.github.io/V9M-M3E/) to open the webpage  
 or   
 use `git clone https://github.com/TheDAOS/V9M-M3E.git` to clone repo and run using any webserver   
 
